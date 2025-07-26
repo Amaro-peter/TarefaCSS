@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <h1 class="logo">Pedro Amaro</h1>
+        <nav class="nav">
+          <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+          <label for="menu-toggle" class="menu-toggle" aria-label="Abrir menu">
+            <span class="icon-hamburger">
+                &#9776;
+            </span>
+            <span class="icon-close">
+                &times;
+            </span>
+          </label>
+          <div class="nav-links">
+            <a href="#">Página Inicial</a>
+            <a href="#">Página de Contato</a>
+            <a href="#">Link</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content container">
+      <section class="profile-section">
+        <div class="profile-image"></div>
+        <div class="profile-text">
+          <h2>Quem sou eu</h2>
+          <p>
+            Com a cabeça nas nuvens e os pés no chão, gosto de explorar novas ideias e encontrar soluções criativas para problemas do dia a dia.
+            Sou movido pela curiosidade e pelo desejo de fazer a diferença por meio da tecnologia.
+          </p>
+        </div>
+      </section>
+
+      <section class="cards-section">
+        <div class="cards-divs">
+            <h2 id="hobbie-title">
+                Hobbies
+            </h2>
+            <div class="cards-row reverse">
+            <div class="card">Investimentos</div>
+            <div class="card">Programação</div>
+            <div class="card">Natureza</div>
+            <div class="card">Ciência</div>
+            <div class="card">Música</div>
+            </div>
+        </div>
+
+        <div class="cards-divs">
+            <h2 id="top-title">
+                Melhores filmes
+            </h2>
+            <div class="cards-row">
+            <div class="card"><span class="badge">1</span>Interestelar</div>
+            <div class="card"><span class="badge">2</span>Star Wars</div>
+            <div class="card"><span class="badge">3</span>Star Trek</div>
+            <div class="card">O Senhor dos Anéis</div>
+            <div class="card">Gladiador</div>
+            </div>
+        </div>
+      </section>
+
+      <section class="feedback-section">
+        <div class="feedback-div">
+            <h2>Feedback</h2>
+            <form>
+                <input type="text" placeholder="Dê um feedback para esse desenvolvedor!" />
+                <input type="text" placeholder="Digite seu nome aqui" />
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="social-icons">
+          <a href="#"><img src="./assets/instagram.svg" alt="Instagram" /></a>
+          <a href="#"><img src="./assets/linkedin.svg" alt="LinkedIn" /></a>
+          <a href="#"><img src="./assets/gitlab.svg" alt="Git" /></a>
+        </div>
+        <button class="contact-btn btn">Entrar em contato</button>
+      </div>
+    </footer>
+  </body>
+</html>
